@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/tyldum/Mojolicious-Plugin-NamedHelpers.svg?branch=master)](https://travis-ci.org/tyldum/Mojolicious-Plugin-NamedHelpers) [![MetaCPAN Release](https://badge.fury.io/pl/Mojolicious-Plugin-NamedHelpers.svg)](https://metacpan.org/release/Mojolicious-Plugin-NamedHelpers) [![Coverage Status](http://codecov.io/github/tyldum/Mojolicious-Plugin-NamedHelpers/coverage.svg?branch=master)](https://codecov.io/github/tyldum/Mojolicious-Plugin-NamedHelpers?branch=master)
 # NAME
 
 Mojolicious::Plugin::NamedHelpers - Mojolicious Plugin
