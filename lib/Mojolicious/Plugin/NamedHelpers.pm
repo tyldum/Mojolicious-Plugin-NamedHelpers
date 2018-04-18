@@ -57,7 +57,19 @@ By registering your helpers with "named_helper" the name of the sub will be set 
 
 =head1 AUTHOR
 
-This module is written by Vidar Tyldum, but withcrucial help from the #mojo IRC channel on irc.perl.org.
+Vidar Tyldum <tyldum@cpan.org>
+
+=head1 CREDITS
+
+This module is written by Vidar Tyldum, but with crucial help from the #mojo IRC channel on irc.perl.org.
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2018 by Vidar Tyldum.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0 (GPL Compatible)
 
 =head1 SEE ALSO
 
