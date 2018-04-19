@@ -4,14 +4,13 @@ use Sub::Util qw(set_subname);
 
 our $VERSION = '0.02';
 
-
 sub register {
   my ($self, $app, $arg) = @_;
-  my $namespace = $arg->{namespace} // ref($app);
+  $arg->{namespace} //= ref($app);
   $app->helper(
     named_helper => sub {
       my ($c, $name, $sub) = @_;
-      $c->app->helper($name => set_subname "$namespace::$name", $sub);
+      $c->app->helper($name => set_subname "$arg->{namespace}::$name", $sub);
     }
   );
 }
