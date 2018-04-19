@@ -44,7 +44,7 @@ Without this plugin those subs will be named __ANON__, but now they will be name
 
 By default the namespace will be the same as the app, but this can be overridden if desired.
 
-The author's use-case is for providing more context in JSON-based application logs, where all helpers would identidy themselves as __ANON__.
+The author's use-case is for providing more context in JSON-based application logs, where all helpers would identify themselves as __ANON__.
 
 =head1 HELPERS
 
