@@ -57,7 +57,7 @@ By registering your helpers with "named_helper" the name of the sub will be set 
 
 =head1 AUTHOR
 
-Vidar Tyldum <tyldum@cpan.org>
+Vidar Tyldum <vidar@tyldum.com>
 
 =head1 CREDITS
 
@@ -73,6 +73,6 @@ This is free software, licensed under:
 
 =head1 SEE ALSO
 
-L<Sub::Util>>, L<Mojolicious>, L<Mojolicious::Guides>, L<http://mojolicious.org>.
+L<Sub::Util>, L<Mojolicious>, L<Mojolicious::Guides>, L<http://mojolicious.org>.
 
 =cut
