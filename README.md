@@ -22,7 +22,7 @@ Without this plugin those subs will be named \_\_ANON\_\_, but now they will be 
 
 By default the namespace will be the same as the app, but this can be overridden if desired.
 
-The author's use-case is for providing more context in JSON-based application logs, where all helpers would identidy themselves as \_\_ANON\_\_.
+The author's use-case is for providing more context in JSON-based application logs, where all helpers would identify themselves as \_\_ANON\_\_.
 
 # HELPERS
 

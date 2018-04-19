@@ -59,7 +59,7 @@
          "web" : "https://github.com/tyldum/Mojolicious-Plugin-NamedHelpers"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_authority" : "cpan:TYLDUM",
    "x_contributors" : [
       "Dan Book <grinnz@grinnz.com>"
