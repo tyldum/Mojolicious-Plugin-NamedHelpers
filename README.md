@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tyldum/Mojolicious-Plugin-NamedHelpers.svg?branch=master)](https://travis-ci.org/tyldum/Mojolicious-Plugin-NamedHelpers) [![MetaCPAN Release](https://badge.fury.io/pl/Mojolicious-Plugin-NamedHelpers.svg)](https://metacpan.org/release/Mojolicious-Plugin-NamedHelpers) [![Coverage Status](http://codecov.io/github/tyldum/Mojolicious-Plugin-NamedHelpers/coverage.svg?branch=master)](https://codecov.io/github/tyldum/Mojolicious-Plugin-NamedHelpers?branch=master)
+[![MetaCPAN Release](https://badge.fury.io/pl/Mojolicious-Plugin-NamedHelpers.svg)](https://metacpan.org/release/Mojolicious-Plugin-NamedHelpers)
 # NAME
 
 Mojolicious::Plugin::NamedHelpers - Mojolicious Plugin
@@ -13,7 +13,7 @@ Mojolicious::Plugin::NamedHelpers - Mojolicious Plugin
     plugin 'NamedHelpers';
 
     # Mojolicious::Lite - with custom namespace
-    plugin 'NamedHelpers' => { namespace => 'My::App::Helpers' };
+    plugin 'NamedHelpers' => {Â namespace => 'My::App::Helpers' };
 
 # DESCRIPTION
 
@@ -34,8 +34,20 @@ By registering your helpers with "named\_helper" the name of the sub will be set
 
 # AUTHOR
 
-This module is written by Vidar Tyldum, but withcrucial help from the #mojo IRC channel on irc.perl.org.
+Vidar Tyldum <vidar@tyldum.com>
+
+# CREDITS
+
+This module is written by Vidar Tyldum, but with crucial help from the #mojo IRC channel on irc.perl.org.
+
+# COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2018 by Vidar Tyldum.
+
+This is free software, licensed under:
+
+    The Artistic License 2.0 (GPL Compatible)
 
 # SEE ALSO
 
-[Sub::Util](https://metacpan.org/pod/Sub::Util)>, [Mojolicious](https://metacpan.org/pod/Mojolicious), [Mojolicious::Guides](https://metacpan.org/pod/Mojolicious::Guides), [http://mojolicious.org](http://mojolicious.org).
+[Sub::Util](https://metacpan.org/pod/Sub::Util), [Mojolicious](https://metacpan.org/pod/Mojolicious), [Mojolicious::Guides](https://metacpan.org/pod/Mojolicious::Guides), [http://mojolicious.org](http://mojolicious.org).

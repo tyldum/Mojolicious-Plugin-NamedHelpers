@@ -2,7 +2,7 @@ package Mojolicious::Plugin::NamedHelpers;
 use Mojo::Base 'Mojolicious::Plugin';
 use Sub::Util qw(set_subname);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 sub register {
